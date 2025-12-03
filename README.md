@@ -7,11 +7,7 @@
 [![PyPI version](https://badge.fury.io/py/clinmetml.svg)](https://badge.fury.io/py/clinmetml)
 
 
-ClinMetML is a flexible Python library designed to empower metabolomics researchers with rigorous data analysis and predictive modeling capabilities. Unlike rigid "black-box" pipelines, ClinMetML offers a modular architecture: users can deploy the entire end-to-end workflow for automation or selectively utilize specific modules—from preprocessing to evaluation—tailored to their unique research needs.
-
-A core strength of ClinMetML lies in its clinically-oriented feature refinement strategy. Recognizing that clinical utility requires minimizing the number of biomarkers without sacrificing accuracy, the framework employs a multi-stage selection process. It begins with robust ensemble feature selection, followed by Recursive Feature Elimination (RFE) ranking. To determine the optimal feature subset, ClinMetML utilizes a forward feature addition method with AUC-based refinement, systematically identifying the smallest set of markers that maximizes predictive performance. Crucially, this process incorporates strict collinearity checks to ensure the final panel consists of independent, non-redundant markers.
-
-Beyond feature selection, ClinMetML addresses real-world data challenges with advanced imbalanced data resampling (oversampling, undersampling, hybrids) and supports a wide range of models, from classic ML to Deep Learning for tabular data. Finally, it validates clinical relevance through Decision Curve Analysis (DCA) and provides transparent interpretations via SHAP, ensuring models are both powerful and trustworthy.
+ClinMetML is a flexible Python framework for metabolomics that prioritizes clinical utility. It features a rigorous multi-stage feature refinement pipeline—integrating ensemble selection, RFE ranking, forward addition, and collinearity checks—to identify the smallest, most predictive biomarker subset. With built-in support for imbalanced learning, tabular Deep Learning, SHAP, and Decision Curve Analysis (DCA), ClinMetML streamlines the development of robust and interpretable diagnostic models.
 
 ## 🚀 Key Features
 

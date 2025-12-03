@@ -434,7 +434,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use ClinMetML in your research, please cite:
 
 ```bibtex
-@software{clinmetml2024,
+@software{clinmetml2025,
   title={ClinMetML: Automated Metabolomics Biomarker Discovery and Predictive Modeling},
   author={Junrong Li},
   year={2025},
